@@ -1,0 +1,26 @@
+{
+  "name": "electron-clipboard-extended",
+  "version": "1.0.0",
+  "description": "Electron clipboard extended with event handler for Text and Image change",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arjun-g/electron-clipboard-extended.git"
+  },
+  "keywords": [
+    "electron",
+    "clipboard"
+  ],
+  "author": "Arjun G",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/arjun-g/electron-clipboard-extended/issues"
+  },
+  "homepage": "https://github.com/arjun-g/electron-clipboard-extended#readme",
+  "dependencies": {
+    "electron": "^1.6.2"
+  }
+}
