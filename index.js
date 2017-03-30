@@ -1,5 +1,5 @@
 const {clipboard} = require('electron')
-const EventEmitter = require('events')
+const EventEmitter = require('./EventEmitter')
 const clipboardEmitter = new EventEmitter()
 
 let watcherId = null, previousText = clipboard.readText(), previousImage = clipboard.readImage()
