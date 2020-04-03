@@ -51,3 +51,8 @@ Returns clipboard - Chainable method
 * `listener` Function (optional) - If `listener` is not passed all listeners of the event will be removed
 
 Returns clipboard - Chainable method
+
+
+## NOTE
+
+Linux users, attention please! On Linux, the clipboard cannot be used befor app ready. If you import the clipboard before the application ready, once you paste text into the electron's input field, the application would come into unresponsive. (And it would also occur some other bugs which are hard to find out)
